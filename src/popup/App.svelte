@@ -1,4 +1,5 @@
 <script>
+  let name = "Hello";
 </script>
 
-<main>Hello</main>
+<main>{name}</main>

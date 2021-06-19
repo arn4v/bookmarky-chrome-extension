@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "dev": "node scripts/dev.mjs"
+    "dev": "node scripts/dev.mjs",
+    "format": "prettier --write ./src/**/* ./public/**/*"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "fs-extra": "^10.0.0",
     "nodemon": "^2.0.7",
     "postcss": "^8.3.5",
+    "prettier": "^2.3.1",
     "tailwindcss": "^2.2.2"
   },
   "dependencies": {
