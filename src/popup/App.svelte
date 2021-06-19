@@ -2,4 +2,6 @@
   let name = "Hello";
 </script>
 
-<main>{name}</main>
+<div class="bg-black h-48 w-64">
+  {name}
+</div>
