@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Archiver",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Auto Archiver",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
