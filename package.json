@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"build": "node scripts/build.mjs",
-    "dev": "cross-env NODE_ENV=development node ./scripts/dev.mjs",
+		"dev": "cross-env NODE_ENV=development node ./scripts/dev.mjs",
 		"format": "prettier --write ./src/**/* ./public/**/*"
 	},
 	"keywords": [],
@@ -13,6 +13,7 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@chialab/esbuild-plugin-postcss": "^0.8.0",
+		"@types/chrome": "^0.0.154",
 		"autoprefixer": "^10.2.6",
 		"chalk": "^4.1.1",
 		"chokidar": "^3.5.2",

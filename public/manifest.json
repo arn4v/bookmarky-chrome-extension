@@ -1,18 +1,18 @@
 {
-  "manifest_version": 3,
-  "name": "Auto Archiver",
-  "description": "Archive all of your visited URLs to archive.org.",
-  "version": "0.1.0",
-  "action": {
-    "default_title": "Auto Archiver",
-    "default_popup": "popup.html"
-  },
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["content_script.js"]
-    }
-  ],
-  "permissions": ["storage", "tabs", "webRequest", "webNavigation"],
-  "host_permissions": ["*://*/*"]
+	"manifest_version": 3,
+	"name": "Bookmarky",
+	"description": "Chrome extension for Bookmarky.io API",
+	"version": "0.1.0",
+	"action": {
+		"default_title": "Bookmarky.io",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["content_script.js"]
+		}
+	],
+	"permissions": ["storage", "tabs", "webRequest", "webNavigation"],
+	"host_permissions": ["*://*/*"]
 }
